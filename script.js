@@ -1,5 +1,6 @@
 
-fetch('https://your-backend-url.com/api/products')
+fetch('https://backendfix-production-c060.up.railway.app/
+')
   .then(res => res.json())
   .then(data => {
     const container = document.getElementById('produk-container');
